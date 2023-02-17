@@ -1,0 +1,158 @@
+body{
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(239, 232, 236);
+}
+
+.ctr{
+    text-align: center;
+}
+
+.bullet1{
+    margin-top: 5px;
+   
+    
+}
+.bullet2{
+    margin: 20px;
+}
+
+.txt-box{
+    position: relative;
+    top: 15%;
+}
+
+button{
+    position: relative;
+    top: 90px; 
+}
+
+
+#div1{
+height: 65vh;
+width: auto;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-size: 1.8em;
+background-image: url(images/office1bw.jpg);
+font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+#div2{
+    background-color: rgb(70, 23, 104);
+    color: #bec896;
+}
+
+.jotn{
+    background-color: rgb(178, 79, 195); 
+    color: white;
+    border: 1px solid #6b0366;
+    font-size: 25px;
+    width: 17%%;
+      
+      padding: 14px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      
+}
+
+.div2-txt{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    
+}
+
+
+
+.txt{
+    margin: 25px;
+    text-align: left;
+    background-color: rgba(57, 10, 34, 0.3);
+}
+
+.bullet1, .bullet2{
+    font-size: large;
+}
+
+
+
+
+.jotn:hover {
+    background-color: #5b0854; /* Green */
+    color: white;
+  }
+
+
+     
+
+header{
+    
+    height: 15px;
+}
+
+h1{
+    
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    bottom: 7px;
+    font-size: 1.7em;
+    color: rgb(96, 3, 94);
+    
+}
+
+
+.lilbigger{
+    font-size: 1.3em;
+}
+
+.icons{
+    width: 20px;
+}
+
+#contact{
+    color: #6b0366;
+    padding-top: 7px;
+}
+
+footer{
+    color: #6b0366;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.form{
+    text-align: center;
+    background-color: rgb(134, 48, 132);
+    font-size: 20px;
+    margin-top: 0px;
+    padding-bottom: 13px;
+
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+    padding-top: 10px;
+}
+
+
+#sbtn{
+    color: black;
+}
+

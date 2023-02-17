@@ -1,0 +1,23 @@
+.div1{
+    background-color: rgb(245, 220, 241);
+width: 50%;
+float: left;
+text-align: center;
+}
+
+.div2{
+    background-color: rgb(236, 212, 232);
+width: 50%;
+float: right;
+text-align: center;
+}
+
+form{
+    background-color: rgb(236, 212, 232);
+}
+
+.lines{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
