@@ -50,9 +50,9 @@
 
     <h3><div class="onScro">Contact Us</div></h3>
 
-    <form>
+    <form method="post">
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" size="30"><br>
+        <input type="text" id="clientName" name="name" size="30"><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" size="30"><br>        
         <label for="website">Business Url:</label><br>
@@ -60,8 +60,8 @@
         <label for="employee_total">Number of Employees:</label><br>
         <input type="number" id="employee_total" name="employee_total"><br>
         <label for="inquiry">Tell us more about your staffing needs:</label><br>
-        <textarea rows="4" id="inquiry" name="inquiry"></textarea><br><br>
-        <input type="submit" value="SEND" id="sbtn">
+        <textarea rows="4" id="message" name="message"></textarea><br><br>
+        <input onclick="question_intake()" type="submit" value="SEND" id="sbtn">
     </form> 
 
 </div>

@@ -3,7 +3,6 @@
 //onload animations
 window.onload = () => {
 
-    console.log("page is fully loaded");
     gsap.from("h1",{x:80, y:-97, duration:1});
     gsap.from("h2", {scale:0.4, duration:1});
     gsap.from("h5",{x:-80, duration:1});
@@ -32,6 +31,31 @@ head.appendChild(link);
     
 }
 
-//function osMovement()=>{
-  //  (".onScro",{x:-80, duration:1});
-//}
+
+//Grabs and returns form info as JSON
+function question_intake(){
+    //grab form input fields
+  const pcName = document.getElementById("clientName");
+  const email = document.getElementById("email");
+  const url = document.getElementById("url")  ;
+  const employee_total = document.getElementById("employee_total");
+  const message = document.getElementById("message");
+  
+  const contact_us_form = {
+  name:pcName.value,
+  email:email.value,
+  url:url.value,
+  employee_total:Number(employee_total.value),
+  message:message.value
+  };
+  
+  const contactUsForm = JSON.stringify(contact_us_form,null,2);
+
+  
+  return contactUsForm
+  };
+  
+
+
+
+

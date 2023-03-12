@@ -1,0 +1,22 @@
+{
+  "name": "red_staffing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKunductor/1CS.git"
+  },
+  "author": "Victor Floyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKunductor/1CS/issues"
+  },
+  "homepage": "https://github.com/TheKunductor/1CS#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.279.0"
+  }
+}

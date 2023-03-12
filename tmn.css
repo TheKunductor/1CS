@@ -14,6 +14,7 @@ text-align: center;
 
 form{
     background-color: rgb(236, 212, 232);
+    height:300px;
 }
 
 .lines{
@@ -21,3 +22,25 @@ form{
     border: none;
     border-bottom: 1px solid #000000;
 }
+
+footer{text-align: center;}
+
+#uploader{
+    text-align: center;
+    background-color: rgb(228, 210, 229);
+    
+}
+
+#submitbtn{
+    text-align: center;
+    background-color: #000000;
+    color: rgb(138, 45, 225);
+    position: relative;
+    left: 50%;
+    top:40px;
+    transform: translate(-50%, -50%);
+}
+
+h1{text-align: center;}
+
+footer{background-color: rgb(210, 126, 207);}
